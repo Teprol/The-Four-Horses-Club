@@ -1,0 +1,15 @@
+.list-sayings__item {
+  display: flex;
+  align-items: center;
+  column-gap: 12px;
+
+  &::after{
+    box-sizing: border-box;
+    content: '';
+    display: block;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: var(--font-color-contrast);
+  }
+}

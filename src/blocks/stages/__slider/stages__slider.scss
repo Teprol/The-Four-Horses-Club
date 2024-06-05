@@ -1,0 +1,129 @@
+.stages__slider {
+  box-sizing: border-box;
+  padding: 128px 0 0;
+  position: relative;
+
+  @media screen and (width >=1366px) {
+    grid-column: 1 / -1;
+    padding: 54px 0 0;
+  }
+
+  &::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 182px;
+    background: url('./images/plane.png') no-repeat center;
+    z-index: 1;
+    // background-size: 100% 100%;
+
+    @media screen and (width >=1366px) {
+      width: 397px;
+      height: 237px;
+      top: 48.46%;
+      right: -59px;
+      left: auto;
+
+      background: url(images/plane-M.png) no-repeat center;
+      background-size: contain;
+    }
+  }
+
+  .slider__container {
+    box-sizing: border-box;
+    background: url('./images/background_slider.jpg');
+
+    @media screen and (width >=1366px) {
+      background-image: none;
+      margin: 0;
+    }
+  }
+
+  .slider__list {
+    padding: 62px 0 34px 0;
+    height: 300px;
+
+    @media screen and (width >=1366px) {
+      height: initial;
+      padding: 0;
+      display: grid;
+      grid-template-columns: repeat(12, 1fr);
+      grid-template-rows: repeat(3, auto);
+      gap: 20px;
+    }
+  }
+
+  .slider__item {
+    padding: 0 24px 0 20px;
+    display: flex;
+    column-gap: 16px;
+    counter-increment: stages;
+    position: relative;
+
+    &:nth-of-type(3) {
+      padding-bottom: 20px;
+      @media screen and (width >=1366px) {
+        grid-row: span 2;
+      }
+    }
+
+    &:nth-of-type(7) {
+      @media screen and (width >=1366px) {
+        grid-column: span 8;
+        padding-right: 290px;
+      }
+    }
+
+    @media screen and (width >=1366px) {
+      padding: 20px;
+      grid-column: span 4;
+      background-color: var(--background-color-header);
+      // background-image: url('images/background2.png');
+    }
+
+    &::before {
+      width: 36px;
+      height: 36px;
+      content: counter(stages);
+      flex-shrink: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      background: var(--font-color-contrast);
+      border-radius: 60px;
+      font-family: var(--font-family);
+      font-style: normal;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 1.2;
+      text-align: left;
+
+      color: #313131;
+    }
+
+    &::after {
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: url('images/background2.png') center;
+      mix-blend-mode: color-burn;
+
+      @media screen and (width >=1366px) {
+        content: '';
+      }
+    }
+  }
+
+  .slider__buttons {
+    @media screen and (width >=1366px) {
+      display: none;
+    }
+  }
+}

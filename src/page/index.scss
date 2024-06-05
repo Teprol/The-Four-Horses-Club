@@ -1,0 +1,124 @@
+//* шрифты
+@import '../global/fonts';
+
+//* глобальные переменные
+@import '../global/variables';
+
+// общие стили
+@import '../blocks/root/root';
+@import '../blocks/padding/padding';
+@import '../blocks/list/list';
+@import '../blocks/image/image';
+@import '../blocks/link/link';
+@import '../blocks/button/button';
+@import '../blocks/button/_accent/button_accent';
+@import '../blocks/text/text';
+@import '../blocks/text/_accent/text_accent';
+@import '../blocks/text/_accent-2/text_accent-2';
+@import '../blocks/title/title';
+@import '../blocks/hover/hover';
+
+
+// * page
+@import '../blocks/page/page';
+
+//* header
+@import '../blocks/header/header';
+@import '../blocks/header/__container/header__container';
+@import '../blocks/header/__top/header__top';
+@import '../blocks/header/__logo/header__logo.scss';
+@import '../blocks/header/__title/header__title';
+@import '../blocks/header/__content/header__content';
+@import '../blocks/header/__text/header__text';
+@import '../blocks/header/__decor-header/header__decor-header';
+
+// logo
+@import '../blocks/logo/logo';
+
+//decor-header
+@import '../blocks/decor-header/decor-header';
+@import '../blocks/decor-header/__circle-text/decor-header__circle-text';
+@import '../blocks/decor-header/__king-queen/decor-header__king-queen';
+@import '../blocks/decor-header/__knight-pawn/decor-header__knight-pawn';
+
+//nav
+@import '../blocks/nav/nav';
+@import '../blocks/nav/__link/nav__link';
+
+//list-sayings
+@import '../blocks/list-sayings/list-sayings';
+@import '../blocks/list-sayings/__list/list-sayings__list';
+@import '../blocks/list-sayings/__item/list-sayings__item';
+@import '../blocks/list-sayings/__text/list-sayings__text';
+
+//* список поговорок
+@import '../blocks/list-sayings/list-sayings';
+
+//* main
+@import '../blocks/main/main';
+
+//* promo
+@import '../blocks/promo/promo';
+@import '../blocks/promo/__text/promo__text';
+@import '../blocks/promo/__text-top/promo__text-top';
+@import '../blocks/promo/__text-bottom/promo__text-bottom';
+@import '../blocks/promo/__content-top/promo__content-top';
+@import '../blocks/promo/__text/_seans/promo__text_seans';
+@import '../blocks/promo/__decor-support/promo__decor-support';
+@import '../blocks/promo/__decor-visit/promo__decor-visit';
+@import '../blocks/promo/__info/promo__info';
+@import '../blocks/promo/__support/promo__support';
+
+//promo-info
+@import '../blocks/promo-info/promo-info';
+@import '../blocks/promo-info/__item/promo-info__item';
+@import '../blocks/promo-info/__title/promo-info__title';
+@import '../blocks/promo-info/__text/promo-info__text';
+@import '../blocks/promo-info/__text-sale/promo-info__text-sale';
+
+//decor-support
+@import '../blocks/decor-support/decor-support';
+//decor-visit
+@import '../blocks/decor-visit/decor-visit';
+@import '../blocks/decor-visit/__horse-arm/decor-visit__horse-arm';
+@import '../blocks/decor-visit/__man/decor-visit__man';
+@import '../blocks/decor-visit/__mask/decor-visit__mask';
+
+//* stages
+@import '../blocks/stages/stages';
+@import '../blocks/stages/__title/stages__title';
+@import '../blocks/stages/__subtitle/stages__subtitle';
+@import '../blocks/stages/__slider/stages__slider';
+
+
+//* slider
+@import '../blocks/slider/slider';
+@import '../blocks/slider/__container/slider__container';
+@import '../blocks/slider/__text/slider__text';
+@import '../blocks/slider/__list/slider__list';
+@import '../blocks/slider/__buttons/slider__buttons';
+@import '../blocks/slider/__button-previous/slider__button-previous';
+@import '../blocks/slider/__button/slider__button.scss';
+@import '../blocks/slider/__dots/slider__dots';
+@import '../blocks/slider/__button-dot/slider__button-dot';
+@import '../blocks/slider/__button-dot/_active/slider__button-dot_active';
+@import '../blocks/slider/__button-pages/slider__button-pages';
+
+//participants
+@import '../blocks/participants/participants';
+@import '../blocks/participants/__title/participants__title';
+@import '../blocks/participants/__slider/participants__slider';
+
+//participant
+@import '../blocks/participant/participant';
+@import '../blocks/participant/__image/participant__image';
+@import '../blocks/participant/__name/participant__name';
+@import '../blocks/participant/__text/participant__text';
+@import '../blocks/participant/__link/participant__link';
+
+
+
+//* footer
+@import '../blocks/footer/footer';
+@import '../blocks/footer/__content/footer__content';
+@import '../blocks/footer/__text/footer__text';

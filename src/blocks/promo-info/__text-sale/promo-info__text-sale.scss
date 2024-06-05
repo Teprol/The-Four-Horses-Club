@@ -1,0 +1,15 @@
+.promo-info__text-sale {
+  display: inline-flex;
+  margin-right: 7px;
+
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 45%;
+    width: 108%;
+    height: 2px;
+    background-color: #f54932;
+  }
+}

@@ -1,0 +1,56 @@
+.decor-header__king-queen {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+
+  &::before {
+    transform: rotate(1deg);
+    content: "";
+    display: block;
+    width: 76px;
+    height: 120px;
+    position: absolute;
+    right: 79px;
+    bottom: 168px;
+    background: url(images/queen.png) no-repeat center;
+    background-size: 100% 100%;
+
+    @media screen and (width >=1366px) {
+      width: 147px;
+      height: 266px;
+      right: 159px;
+      bottom: 302px;
+      background: url(images/queen-m.png) no-repeat center;
+    }
+
+    @media screen and (width >=1920px) {
+      right: 447px;
+    }
+  }
+
+  &::after {
+    content: "";
+    display: block;
+    width: 55px;
+    height: 120px;
+    position: absolute;
+    right: 256px;
+    bottom: 122px;
+    background: url(images/king.png) no-repeat center;
+    background-size: 100% 100%;
+
+    @media screen and (width >=1366px) {
+      width: 131px;
+      height: 256px;
+      right: 506px;
+      bottom: 202px;
+      background: url(images/king-m.png) no-repeat center;
+    }
+
+    @media screen and (width >=1920px) {
+      right: 794px;
+    }
+  }
+}

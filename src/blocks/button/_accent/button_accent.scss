@@ -1,0 +1,15 @@
+.button_accent {
+  background: var(--color-button-accent);
+
+  color: var(--color-button-base);
+
+  &:hover {
+    background: var(--color-button-base);
+    color: var(--font-color-contrast);
+  }
+
+  @media screen and (width >=1366px) {
+    background: transparent;
+    border: 2px solid var(--color-button-base);
+  }
+}

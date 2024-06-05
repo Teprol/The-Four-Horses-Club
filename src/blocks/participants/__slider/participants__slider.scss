@@ -1,0 +1,29 @@
+.participants__slider {
+  @media screen and (width >=1366px) {
+    display: contents;
+  }
+
+  .slider__list {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 20px;
+  }
+
+  .slider__item {
+    // min-width: calc(100vw - (var(--padding-page-m) * 2));
+    flex: 0 0 100%;
+
+    @media screen and (width >=1366px) {
+      flex: 0 0 calc((100% - 40px) / 3);
+    }
+  }
+
+  .slider__container {
+    margin-bottom: 40px;
+
+    @media screen and (width >=1366px) {
+      order: 1;
+      margin: 0;
+    }
+  }
+}

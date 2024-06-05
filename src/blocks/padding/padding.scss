@@ -1,0 +1,10 @@
+.padding {
+  padding-left: var(--padding-page-m);
+  padding-right: var(--padding-page-m);
+}
+
+@media screen and (width >=1366px) {
+  .padding {
+    --padding-page-m: var(--padding-page-l);
+  }
+}

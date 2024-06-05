@@ -1,0 +1,7 @@
+.stages {
+  @media screen and (width >=1366px) {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(3, auto);
+  }
+}

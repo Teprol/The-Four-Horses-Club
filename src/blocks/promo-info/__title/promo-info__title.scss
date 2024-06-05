@@ -1,0 +1,14 @@
+.promo-info__title {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--font-color-base);
+  opacity: 0.7;
+
+  @media screen and (width >=1366px) {
+    flex: 1;
+    padding: var(--padding);
+    border-right: 2px solid #d0d0d0;
+  }
+}

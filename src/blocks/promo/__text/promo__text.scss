@@ -1,0 +1,14 @@
+.promo__text {
+  margin: 0;
+
+  font-family: var(--second-family);
+  font-style: normal;
+  // font-weight: 400;
+  // font-size: 28px;
+  font-size: clamp(28px,3vw,36px);
+  line-height: 1.35;
+  text-align: left;
+  text-transform: uppercase;
+
+  color: var(--font-color-base);
+}

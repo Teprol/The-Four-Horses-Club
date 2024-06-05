@@ -1,0 +1,10 @@
+.text_accent-2 {
+  font-family: var(--font-family);
+  font-style: normal;
+  // font-size: 18px;
+  font-size: clamp(18px, 2vw, 20px);
+  line-height: 1.2;
+  text-align: left;
+
+  color: var(--font-color-accent-2);
+}

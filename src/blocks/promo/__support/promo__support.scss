@@ -1,0 +1,7 @@
+.promo__support {
+  margin: 0;
+
+  @media screen and (width >=1366px) {
+    grid-column: 6 / -1;
+  }
+}

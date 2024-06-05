@@ -1,0 +1,12 @@
+.slider__text {
+  margin: 0;
+
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 500;
+  font-size: clamp(18px,4vw,20px);
+  line-height: 1.2;
+  text-align: left;
+
+  color: var(--font-color-base);
+}

@@ -1,0 +1,15 @@
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  // row-gap: 14px;
+  row-gap: 12px;
+}
+
+@media screen and (width >=1366px) {
+  .nav {
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 16px;
+  }
+}

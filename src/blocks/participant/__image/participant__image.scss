@@ -1,0 +1,15 @@
+.participant__image {
+  display: block;
+  margin-bottom: 20px;
+  width: 244px;
+  // width: calc(244px + (320 - 244) * ((100vw - 375px) / (1366 - 375)));
+  // max-width: 320px;
+  // height: 244px;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  object-fit: cover;
+
+  @media screen and (width >=1366px) {
+    width: 320px;
+  }
+}

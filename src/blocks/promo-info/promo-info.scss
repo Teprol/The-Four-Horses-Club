@@ -1,0 +1,9 @@
+.promo-info {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+
+  @media  screen and (width >= 1366px) {
+    gap: 0;
+  }
+}

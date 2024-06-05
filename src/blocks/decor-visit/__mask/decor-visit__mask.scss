@@ -1,0 +1,15 @@
+.decor-visit__mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('./images/background2.png') no-repeat center;
+  z-index: 1;
+  mix-blend-mode: color-burn;
+
+  @media screen and (width >=1366px) {
+    background: url(images/background2.png) repeat 22px 49px;
+    // background-size: 406px 426px;
+  }
+}

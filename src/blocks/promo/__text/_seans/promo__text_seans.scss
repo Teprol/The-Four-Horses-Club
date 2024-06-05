@@ -1,0 +1,8 @@
+.promo__text_seans {
+  margin: 0 0 44px;
+
+  @media screen and (width >=1366px) {
+    grid-column: 6 / -1;
+    margin: 0 0 60px;
+  }
+}

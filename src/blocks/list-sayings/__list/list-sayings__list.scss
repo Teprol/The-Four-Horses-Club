@@ -1,0 +1,16 @@
+.list-sayings__list {
+  display: flex;
+  column-gap: 12px;
+  width: fit-content;
+  animation: sayings 15s linear infinite;
+}
+
+@keyframes sayings {
+  0% {
+    transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(calc((100% + 40px) * -1));
+  }
+}

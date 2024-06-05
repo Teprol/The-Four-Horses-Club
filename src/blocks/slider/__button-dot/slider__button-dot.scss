@@ -1,0 +1,16 @@
+.slider__button-dot {
+  display: block;
+  margin: 0;
+  padding: 0;
+  border: none;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+
+  background: var(--background-button-disabled);
+
+  &:hover {
+    background-color: var(--color-button-hover);
+  }
+}

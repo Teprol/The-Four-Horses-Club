@@ -1,0 +1,17 @@
+.promo-info__text {
+  margin: 0;
+
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: left;
+
+  color: var(--font-color-base);
+
+  @media screen and (width >=1366px) {
+    flex: 1.25;
+    padding: var(--padding);
+  }
+}

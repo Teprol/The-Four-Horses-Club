@@ -1,0 +1,23 @@
+.promo__content-top {
+  margin: 0 0 34px;
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+
+  @media screen and (width >=1366px) {
+    gap: 64px;
+    grid-column: 1 / -1;
+    margin: 0 0 64px;
+  }
+
+  .promo__text {
+    display: contents;
+
+    @media screen and (width >=1366px) {
+      display: block;
+      flex: 1;
+      min-width: 764px;
+    }
+  }
+}

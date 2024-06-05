@@ -1,0 +1,16 @@
+.promo__decor-support {
+  max-width: 335px;
+  width: 100%;
+  min-height: 213px;
+
+  margin: 0 auto 24.44px;
+
+  order: 1;
+
+  @media screen and (width >=1366px) {
+    max-width: 394px;
+    min-height: 250px;
+    margin: 0;
+    background-size: cover;
+  }
+}

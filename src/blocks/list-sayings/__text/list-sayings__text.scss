@@ -1,0 +1,15 @@
+.list-sayings__text {
+  margin: 0;
+  white-space: nowrap;
+
+  font-family: var(--second-family);
+  font-style: normal;
+  font-weight: 400;
+  // font-size: 16px;
+  font-size: clamp(16px, 2vw, 22px);
+  line-height: 1.1;
+  text-align: right;
+  text-transform: uppercase;
+
+  color: var(--font-color-contrast);
+}

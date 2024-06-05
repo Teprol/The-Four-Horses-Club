@@ -1,0 +1,9 @@
+.promo__text-top {
+  display: block;
+  margin: 0 0 24px;
+
+  @media screen and (width >=1366px) {
+    display: initial ;
+    margin: initial ;
+  }
+}

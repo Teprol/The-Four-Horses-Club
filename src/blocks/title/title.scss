@@ -1,0 +1,15 @@
+.title {
+  font-family: var(--second-family);
+  font-style: normal;
+  font-size: clamp(36px, 9vw, 54px);
+  line-height: 1.1;
+  font-weight: 400;
+  text-align: left;
+  text-transform: uppercase;
+
+  color: var(--font-color-base);
+
+  @media screen and (width >=1366px) {
+    line-height: 1.2;
+  }
+}

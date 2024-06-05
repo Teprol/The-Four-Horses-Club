@@ -1,0 +1,9 @@
+.promo__text-bottom {
+  display: block;
+  order: 2;
+
+  @media screen and (width >=1366px) {
+    display: initial;
+    margin: initial;
+  }
+}

@@ -1,0 +1,51 @@
+.decor-header__knight-pawn {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+
+  &::before {
+    content: "";
+    display: block;
+    width: 96px;
+    height: 132px;
+    position: absolute;
+    right: 132px;
+    bottom: -8px;
+    background: url(images/knight.png) no-repeat center;
+    background-size: 100% 100%;
+
+    @media screen and (width >=1366px) {
+      width: 197px;
+      height: 218px;
+      right: 334px;
+      bottom: 31px;
+      background: url(images/knight-m.png) no-repeat center;
+    }
+
+    @media screen and (width >=1920px) {
+      right: 621px;
+    }
+  }
+
+  &::after {
+    content: "";
+    display: none;
+    width: 83px;
+    height: 123px;
+    position: absolute;
+    right: 44px;
+    bottom: 51px;
+    background: url(images/pawn.png) no-repeat center;
+    background-size: 100% 100%;
+
+    @media screen and (width >=1366px) {
+      display: block;
+    }
+
+    @media screen and (width >=1920px) {
+      right: 332px;
+    }
+  }
+}

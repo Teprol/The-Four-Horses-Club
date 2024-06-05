@@ -1,0 +1,29 @@
+.promo-info__item {
+  --padding: 0 0 15px;
+
+  padding: 0 0 15px;
+  border-bottom: 2px solid #d0d0d0;
+  ;
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+
+  @media screen and (width >=1366px) {
+    padding: initial;
+    gap: 15px;
+  }
+
+  &:last-child {
+    padding: 0;
+    border-bottom: none;
+  }
+
+  &:not(:first-child) {
+    --padding: 15px 0 15px;
+  }
+
+  &:last-child {
+    --padding: 15px 0 0;
+  }
+}

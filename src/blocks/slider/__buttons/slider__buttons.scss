@@ -1,0 +1,10 @@
+.slider__buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 16px;
+
+  @media screen and (width >=1366px) {
+    column-gap: 14px;
+  }
+}

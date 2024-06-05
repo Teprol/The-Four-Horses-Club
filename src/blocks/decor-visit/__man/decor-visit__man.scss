@@ -1,0 +1,90 @@
+.decor-visit__man {
+  position: absolute;
+
+  &::after {
+    content: '';
+    position: absolute;
+    top: 66px;
+    left: 31px;
+    width: 302.28px;
+    height: 266.39px;
+
+    background: url(images/man2.png) no-repeat;
+    opacity: 1;
+
+    animation: 30s opacity-1 ease infinite;
+
+    @media screen and (width >=1366px) {
+      top: 65px;
+      left: 46px;
+      width: 434.33px;
+      height: 346.51px;
+      background-size: cover;
+    }
+  }
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 82px;
+    left: 53px;
+    width: 239.33px;
+    height: 249.51px;
+
+    background: url('./images/man1.png') no-repeat;
+    opacity: 0;
+    animation: 30s opacity-2 ease infinite;
+
+    @media screen and (width >=1366px) {
+      top: 86px;
+      left: 74px;
+      width: 342.33px;
+      height: 342.51px;
+      background-size: cover;
+    }
+  }
+}
+
+@keyframes opacity-1 {
+  0% {
+    opacity: 0;
+  }
+
+  10% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  54% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes opacity-2 {
+  0% {
+    opacity: 0;
+  }
+
+  10% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  54% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}

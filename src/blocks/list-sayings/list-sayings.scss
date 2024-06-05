@@ -1,0 +1,13 @@
+.list-sayings {
+  box-sizing: border-box;
+  position: relative;
+  z-index: 1;
+
+  background: var(--background-color-sayings);
+  padding: 10px 12px;
+  overflow: hidden;
+
+  @media screen and (width >=1366px) {
+    padding: 18px 12px;
+  }
+}

@@ -1,0 +1,53 @@
+.decor-visit__horse-arm {
+  width: 114px;
+  height: 130px;
+
+  z-index: 1;
+  position: absolute;
+  bottom: 3px;
+  left: 44px;
+  background: url('./images/horse.png') no-repeat center;
+  background-size: cover;
+
+  @media screen and (width >=1366px) {
+    width: 143px;
+    height: 180px;
+    bottom: -33px;
+    left: 73px;
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: -15px;
+    left: 93px;
+    width: 202px;
+    height: 207px;
+    background: url(images/arm.png) no-repeat center;
+    background-size: cover;
+
+    animation: hit 2s ease infinite;
+
+    @media screen and (width >=1366px) {
+      top: 19px;
+      left: 123px;
+      width: 283px;
+    }
+  }
+}
+
+
+@keyframes hit {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  50% {
+    transform: rotate(-9deg);
+  }
+
+
+  100% {
+    transform: rotate(0deg);
+  }
+}

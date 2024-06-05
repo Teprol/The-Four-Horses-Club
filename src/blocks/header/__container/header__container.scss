@@ -1,0 +1,15 @@
+.header__container {
+  position: relative;
+  z-index: 1;
+  padding-top: 18px;
+  padding-bottom: 291px;
+
+  @media screen and (width >=1366px) {
+    padding-top: 26px;
+    padding-bottom: 128px;
+  }
+
+  @media screen and (width >=1920px) {
+    --padding-page-l: 349px;
+  }
+}

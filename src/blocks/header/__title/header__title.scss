@@ -1,0 +1,29 @@
+.header__title {
+  margin: 0 0 24px;
+
+  font-family: var(--second-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: clamp(36px, 9vw, 60px);
+  line-height: 1.1;
+  letter-spacing: 0px;
+  text-align: left;
+  text-transform: uppercase;
+
+  color: var(--font-color-base);
+
+  span {
+    //сделал так потому что выровнено по разному
+    display: block;
+
+    &:nth-child(2) {
+      //тут почему то не по центру а слегка правее от центра, поэтому двинул падингом
+      padding-left: 5px;
+      text-align: center;
+    }
+
+    &:nth-child(3) {
+      text-align: right;
+    }
+  }
+}

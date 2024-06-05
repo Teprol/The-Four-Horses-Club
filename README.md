@@ -1,6 +1,8 @@
 # The_Four_Horses_Club
 тестовое задание для верстки целевой страницы Яндекса
 
+#### [ссылка на github-pages](https://teprol.github.io/The-Four-Horses-Club/ "ссылка на github-pages")
+
 ## Технологии:
 - html
 - css
